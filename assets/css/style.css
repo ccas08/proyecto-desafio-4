@@ -1,0 +1,111 @@
+
+nav,footer{
+    background-color: #28A745;
+}
+
+.img-log{
+    width: 200px;
+    height: 200px;
+}
+
+#pay{
+    height: 300px;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Peso ligero (Light) */
+    font-size: 1.5rem;
+}
+
+/* Estilo para el texto de todas las cards */
+.card-subtext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Peso ligero (Light) */
+    font-size: 16pt;
+    color: #707070;
+}
+
+.card-text-direccion {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Peso ligero (Light) */
+    font-size: 13pt;
+    color: #707070;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Peso ligero (Light) */
+    font-size: 16pt;
+}
+/* CSS en tu archivo de estilo */
+.discount-price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    font-size: 20pt;
+    margin-left: 15px;
+    color: #28A745;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cards se envuelvan si no caben en una fila */
+    justify-content: space-between; /* Ajusta según tus necesidades */
+}
+
+.card-wrapper {
+    
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+.card {
+    height: 100%; /* Asegura que todas las cards tengan la misma altura */
+}
+
+.text-medium{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    font-size: 24pt;
+    margin-right: 20px;
+}
+
+.enviar-buttom{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+}
+.img-final{
+margin-top: 20px;
+}
+
+/* Estilo para el cuerpo del documento */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #f8f9fa; /* Color de fondo del footer, puedes ajustarlo según tus necesidades */
+    padding: 20px; /* Ajusta según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para la sección dentro del footer */
+#centered-section {
+    text-align: center;
+}
+
+/* Estilo para el logo */
+.img-final {
+    max-width: 100%; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-bottom: 10px; /* Ajusta según tus necesidades */
+}
+
+/* Estilo para la marca de agua */
+.card-subtext {
+    color: #6c757d; /* Color del texto, puedes ajustarlo según tus necesidades */
+}
